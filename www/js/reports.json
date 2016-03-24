@@ -1,0 +1,25 @@
+{
+  "reports": [
+    {
+      "state": "Closed with status: Case Closed. Case Noted. officers responded to this area and cleared it out.",
+      "name": "Illegal Parking at 26 Park Plz",
+      "reknown": "Cars and limos parked in park plaza cab stand"
+    },{
+      "state": "Closed with status: Case Closed. Case Resolved. shopping cart picked up",
+      "name": "Litter at 106 Tully St",
+      "reknown": "Shopping cart at alley entrance please remove"
+    },{
+      "state": "Open",
+      "name": "Illegal Graffiti at 3095 Story St",
+      "reknown": "Graffiti on rear wall of building facing garage entrance off Ocala street."
+    },{
+      "state": "Open.",
+      "name": "Wellness Check at 111 Ruby Rd",
+      "reknown": "Homeless people sleeping. The people need assistance."
+    },{
+      "state": "Closed with status: Case Closed. Case Noted. cited illegal dumping evidence found 323 beacon..",
+      "name": "Illegal Dumping at Intersection Of Fairfield St & Public Alley",
+      "reknown": "Witnessed incident:"
+    }
+  ]
+}

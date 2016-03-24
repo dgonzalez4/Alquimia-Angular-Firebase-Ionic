@@ -1,0 +1,25 @@
+{
+  "artists": [
+    {
+      "bio": "Using 911 is the proper way to report an emergency. However, if you may use this number.",
+      "shortname": "Barot_Bellingham",
+      "name": "EMERGENCY",
+      "reknown": "408-277-8911"
+    },{
+      "bio": "Using 311 is the proper way to report an emergency. However, if you may use this number.",
+      "shortname": "Jonathan_Ferrar",
+      "name": "Non-Emergency",
+      "reknown": "408-277-8900"
+    },{
+      "bio": "The Animal Care Center serves the areas of Cupertino, Los Gatos, Milpitas, San José, and Saratoga.",
+      "shortname": "Hillary_Goldwynn",
+      "name": "San Jose Animal Care Center",
+      "reknown": "408-794-7297"
+    },{
+      "bio": "A senior at the China International Art University, Xhou has become well-known for his miniature sculptures, often the size of a rice granule, that are displayed by rear projection of microscope images on canvas. Xhou will discuss the art and science behind his incredibly detailed works of art.",
+      "shortname": "Xhou_Ta",
+      "name": "City of San José City Hall",
+      "reknown": "408-535-3500"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "calendar": [
+    {
+      "weekday": "Monday",
+      "description": "The first day of CAC events and exhibits is kicked off under the theme of Art in Full Color From a demonstration in graffiti art on a wall of the Rousseau Room, to the exhibit of colorful glazed modern glassware in the Dover Hall, Art in Full Color will get CAC started in full swing!",
+      "schedule": [
+        {
+          "time": "9:00am-5:00pm",
+          "shortname": "LaVonne_LaRue",
+          "description": "One of downtown’s most beloved winter traditions, Hawaiian Airlines Kristi Yamaguchi Downtown Ice, opens for an extended season of skating under the palms, starting 5 p.m. Friday, November 13 through Sunday, February 7. The City of San José is among the many proud sponsors of Downtown Ice.",
+          "title": "Downtown Ice"
+        }, {
+          "time": "9:30am-10:30am",
+          "shortname": "Hassum_Harrod",
+          "description": "The Housing Department has scheduled an additional series of meetings to provide the most up-to-date information on the Affordable Housing Impact Fee (AHIF) Program, and Inclusionary Housing Ordinance, during the months of January through June 2016. These meetings will include specific information on how developers may apply for the pipeline exemption.",
+          "title": "House Department Meeting"
+        }
+      ]
+    }, {
+      "weekday": "Tuesday",
+      "schedule": [
+        {
+          "time": "12:00pm-10:00pm",
+          "shortname": "Jennifer_Jerome",
+          "description": "San Jose’s historic downtown park will transform into an interactive experience for all ages. Featuring illuminating artwork, live music, beer garden, outdoor café and food truck, mini sports field, informal games and competitions for all ages, Plaza de Cesar Chavez is a special place to touch down and hang out with locals and visitors alike.",
+          "title": "Winter in Plaza de Cesar Chavez"
+        },{
+          "time": "2:30-4:00pm",
+          "shortname": "Hillary_Goldwynn",
+          "description": "The San José City Council meets every Tuesday at 1:30 p.m. and Tuesday at 7 p.m. as needed, unless otherwise noted. If you have any questions, please direct them to the City Clerk’s staff seated at the tables just below the dais. Thank you for taking the time to attend today’s meeting. We look forward to seeing you at future meetings.",
+          "title": "City Hall Meeting"
+        }
+      ]
+    }
+  ],
+  "": [
+    
+  ]
+}

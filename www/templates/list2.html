@@ -1,0 +1,35 @@
+<ion-view view-title="City Contacts ">
+
+  <ion-nav-buttons side="primary">
+   
+  </ion-nav-buttons>
+
+ 
+<div class="bar bar-subheader 
+  item-input-inset bar-light">
+  <label class="item-input-wrapper">
+    <i class="icon ion-search placeholder-icon"></i>
+    <input type="search" ng-model="query" placeholder="Search">
+  </label>
+</div>
+<ion-content 
+  class="has-subheader">
+  <ion-refresher on-refresh="doRefresh()">
+  </ion-refresher>
+  <ion-list 
+    show-delete="data.showDelete"
+    show-reorder="data.showReorder">
+    <ion-item ng-class="{'star': item.star}" 
+    ng-repeat='item in artists | filter: query'
+    class="item-thumbnail-left item-icon-right
+      item-text-wrap" href="#/tab/list/{{item.shortname}}">
+      <img ng-src="img/{{item.shortname}}_tn.jpg"
+        alt="{{ item.name }} Photo">
+      <h2>{{item.name}}</h2>
+      <h3>{{item.reknown}}</h3>
+      <p>{{item.bio | limitTo: 100}}
+      {{ item.bio.length > 150 ? '&hellip;' : '' }}</p>
+    </ion-item>
+  </ion-list>
+</ion-content>
+</ion-view>

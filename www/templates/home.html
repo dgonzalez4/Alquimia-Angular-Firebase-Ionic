@@ -1,0 +1,37 @@
+<ion-view view-title="Report to the City of San Jose ">
+  <ion-content class="splash padding">
+<div class="contextual-links-region">
+
+<form name="myform"
+    ng-submit="register()"
+    novalidate>
+
+    <div class="textintro">
+    <p ng-show="message">{{ message }}</p>
+    </div>
+
+ <div class="form-group">
+   <label for="inputServiceCode" class="control-label col-sm-2">Request Type</label>
+   <div class="col-sm-5">
+      <select class="form-control" ng-model="request.service_code" id="inputServiceCode">
+        <option ng-repeat="service in services" value="{{service.service_code}}">
+          {{service.service_name}}
+        </option>
+     </select>
+    </div>
+ </div>
+    <fieldset>
+      <input type="text" name="firstname" 
+        placeholder="Description"
+        ng-model="user.firstname"
+        ng-required="true">
+        <p class="error validationerror" ng-show="myform.firstname.$invalid && myform.firstname.$touched">
+        You must fill out your description.</p>
+
+    </fieldset>
+
+    <button type="submit" class="btn">Submit</button>
+  </form>
+    </div>
+  </ion-content>
+</ion-view>
