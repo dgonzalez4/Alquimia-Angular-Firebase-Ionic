@@ -1,37 +1,40 @@
 <ion-view view-title="Report to the City of San Jose ">
-  <ion-content class="splash padding">
+  <ion-content>
 <div class="contextual-links-region">
+      <div class="list card">
+    
+      <div class="item">
+        <div class="row">
+          <div class="col-25 frame">
+            <a ng-click="openPhotoView()" class="item">
+              <img ng-src="{{caseImage}}" alt="">
+            </a>
+          </div>
 
-<form name="myform"
-    ng-submit="register()"
-    novalidate>
-
-    <div class="textintro">
-    <p ng-show="message">{{ message }}</p>
+          <div class="col-75">
+             <h2><div ng-repeat="address in addresses">
+        <select
+            ng-model="address.state"
+            ng-options="state.lookupCode as state.description for state in lov_state"></select></h2>
+            </a>
+            
+              <p class="item"><input type="text" ng-model="data.text"/>
+</p>
+          </div>
+        </div>
+      </div>
+      <div class="item item-body">
+        <div id="map" data-tap-disabled="true"></div>
+      </div>
+<div class="button-bar">
+          <a class="button button-positive">Submit</a>
+        </div>
     </div>
+    <p style="font-weight: bold;">Output/Report can be found <a id="firebaseRef" href="#" target="_blank">here</a></p>
+           <div ng-repeat="address in addresses">
+        <p>Email to: {{address.state}}</p>
+        <p>Description: {{ data.text }}</p>
 
- <div class="form-group">
-   <label for="inputServiceCode" class="control-label col-sm-2">Request Type</label>
-   <div class="col-sm-5">
-      <select class="form-control" ng-model="request.service_code" id="inputServiceCode">
-        <option ng-repeat="service in services" value="{{service.service_code}}">
-          {{service.service_name}}
-        </option>
-     </select>
-    </div>
- </div>
-    <fieldset>
-      <input type="text" name="firstname" 
-        placeholder="Description"
-        ng-model="user.firstname"
-        ng-required="true">
-        <p class="error validationerror" ng-show="myform.firstname.$invalid && myform.firstname.$touched">
-        You must fill out your description.</p>
-
-    </fieldset>
-
-    <button type="submit" class="btn">Submit</button>
-  </form>
-    </div>
+<div id="log"></div>
   </ion-content>
 </ion-view>
