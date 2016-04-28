@@ -1,8 +1,7 @@
 # About Open San Jose SJ-311 Ionic
 
 
-SJ 311 is a civic non-emergency issue tracking and reporting application developed by the team at Open San Jose.
-. SJ-311 is developed with Ionic both iOS and Android platforms.
+SJ 311 is a civic non-emergency issue tracking and reporting application developed by the team at Open San Jose. SJ-311 is developed with Ionic both iOS and Android platforms.
 
 ## Instructions for installation
 
