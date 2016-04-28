@@ -20,8 +20,10 @@ Clone this repository into your local machine using the terminal
 $ git clone https://github.com/dgonzalez4/Alquimia-Angular-Firebase-Ionic.git
 ```
 
-To run the project, cd into Alquimia-Angular-Firebase-Ionic folder. Then -
-
+Open project folder.
+```
+$ cd Alquimia-Angular-Firebase-Ionic.git
+```
 To run as web project
 ```
 $ ionic serve
